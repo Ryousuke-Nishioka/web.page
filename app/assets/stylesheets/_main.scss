@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-header {
+  box-sizing: border-box;
+  background: -moz-linear-gradient(top, #d3d3d3,rgba(0,0,255,0));
+  background: -webkit-linear-gradient(top, #d3d3d3, rgba(0,0,255,0));
+  background: linear-gradient(to bottom, #d3d3d3, rgba(0,0,255,0));
+  height: 100px;
+  padding: 0 20px;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index: 24;
+  opacity: 0.8;
+  & img {
+    width: 170px;
+    position: fixed;
+  }
+}
+.main-header_logo1{
+  & img {
+    margin-left: 200px;
+    margin-top: 8px;
+    width: 500px;
+  }
+}
+
+.main-header_logo2{
+  & img {
+    margin-top: 80px;
+    margin-left: 170px;
+    width: 300px;
+  }
+}
+
+.main-header_logo3{
+  & img {
+    margin-top: 100px;
+    margin-left: 480px;
+    width: 300px;
+  }
+}
+
+
+a {
+  text-decoration: none;
+  float: right;
+  font-size: 50px;
+  margin-top: 25px;
+  margin-left:20px; 
+  padding-right: 20px; 
+  color: #ffffff;
+  display: block;
+}
+
+
+  .backgraund-image {
+    background-attachment: fixed;
+    opacity: 0.8;
+    & img {
+      display: flex;
+      width: 100%;
+      background-size: cover;
+    }
+  }
+
+
+  .profile {
+    height: 50vh;
+    background-color: #383634;    
+  }
+
+  .profile-title{
+    font-size: 40px;
+    padding-top: 0.5%;
+  }
+
+  .profile-name {
+    & img{
+      width: 35%;
+      float: right;
+      margin-right: 30px;
+    }
+  }
+
+
+
+  .price {
+    height: 50vh;
+    background-color: #ffffff;
+  }
+
+.instagram {
+    height: 50vh;
+    background-color: red;
+  }
+
+  .access {
+    height: 50vh;
+    background-color: rgba(25, 25, 120, 0.9);
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    padding-left: 50px;
+    &_map {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100% !important;
+      height: 100% !important;
+    }
+    
+  }

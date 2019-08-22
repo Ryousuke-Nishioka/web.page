@@ -1,0 +1,41 @@
+
+.main-header
+  .main-header_image
+    = image_tag 'logo.png'
+    .main-header_logo1
+      = image_tag 'name.png'
+    .main-header_logo2
+      = image_tag 'miwa.png'
+      .main-header_logo3
+        = image_tag 'miwa.e.png'
+      .main-header_message
+      =link_to "000@com", class: "main-header_btn" do
+        = fa_icon 'envelope'
+      =link_to "https://www.facebook.com/", class: "main-header_btn" do
+        = fa_icon 'facebook'
+      =link_to "https://www.instagram.com/", class: "main-header_btn" do
+        = fa_icon 'instagram'
+
+
+.backgraund-image
+  = image_tag 'main.jpg'
+
+  .profile
+    .profile-title
+      Profile
+    .profile-name
+      彫三和
+      .profile-name_img
+        = image_tag 'prof.jpg'
+
+
+
+
+  .price
+    料金
+
+  .instagram
+    ギャラリー
+
+  .access
+    問い合わせ
